@@ -1,4 +1,4 @@
-- pipeline: "TestingCypress1"
+- pipeline: "TestingCypress2"
   on: "CLICK"
   refs:
   - "refs/heads/main"
