@@ -8,6 +8,6 @@ describe('Amazon test',()=> {
     cy.get('#twotabsearchtextbox', {timeout: 7000}).type('Books {enter}');
     cy.get('#nav-search-submit-button').click();
    
-    cy.contains('Mobiles').click();
+    //cy.contains('Mobiles').click();
     });
 })
